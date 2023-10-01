@@ -2,7 +2,7 @@ import java.util.Date;
 
 public class claseprincipal {
     public static void main(String[] args) {
-        Date fechaNacJuan = new Date(2005, 7, 1); // El constructor Date toma años desde 1900, así que 100 representa el año 2000
+        Date fechaNacJuan = new Date(2005, 7, 1); 
         Estudiante juan = new Estudiante("Juan", fechaNacJuan);
         juan.setNotaAsignatura1(4.5);
         juan.setNotaAsignatura2(3.1);
